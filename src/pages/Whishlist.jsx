@@ -3,6 +3,7 @@ import Header from '../componants/Header'
 import { Card } from 'react-bootstrap'
 import { faCartPlus, faHeartCircleXmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Footer from '../componants/Footer'
 
 function Whishlist() {
   return (
@@ -31,6 +32,7 @@ function Whishlist() {
     </div>
   </div>
  </div>
+ <Footer/>
     </>
   )
 }

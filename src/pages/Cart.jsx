@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../componants/Header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
+import Footer from '../componants/Footer'
 
 function Cart() {
   return (
@@ -55,6 +56,7 @@ function Cart() {
         </div>
       </div>
     </div>
+    <Footer/>
     </>
   )
 }
